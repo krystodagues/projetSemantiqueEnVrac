@@ -1,0 +1,45 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "actorfilmslight.csv",
+  "dialect": {
+    "delimiter": ";"
+  },
+  "tableSchema": {
+    "aboutUrl": "http://example.org/actorfilms/{FilmID}",
+    "columns": [
+      {
+        "titles": "Actor",
+        "name": "actorName",
+        "propertyUrl": "https://schema.org/actor"
+      },
+      {
+        "titles": "ActorID",
+        "name": "actorID",
+        "propertyUrl": "https://schema.org/identifier"
+      },
+      {
+        "titles": "Film",
+        "name": "film",
+        "propertyUrl": "https://schema.org/Movie"
+      },
+      {
+        "titles": "Year",
+        "name": "year",
+        "propertyUrl": "https://schema.org/Date"
+      },
+      {
+        "titles": "Votes",
+        "propertyUrl": "https://schema.org/reviewCount"
+      },
+      {
+        "titles": "Rating",
+        "name": "rating",
+        "propertyUrl": "https://schema.org/Rating"
+      },
+      {
+        "titles": "FilmID",
+        "propertyUrl": "https://schema.org/vocab/code"
+      }
+    ]
+  }
+}

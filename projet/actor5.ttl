@@ -1,0 +1,439 @@
+<http://example.org/actorfilms/tt0082449> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Ghost Story";
+  <https://schema.org/Date> "1981";
+  <https://schema.org/reviewCount> "7731";
+  <https://schema.org/Rating> "6.3";
+  <https://schema.org/vocab/code> "tt0082449" .
+
+<http://example.org/actorfilms/tt0076851> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Purple Taxi";
+  <https://schema.org/Date> "1977";
+  <https://schema.org/reviewCount> "533";
+  <https://schema.org/Rating> "6.6";
+  <https://schema.org/vocab/code> "tt0076851" .
+
+<http://example.org/actorfilms/tt0074130> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Amazing Dobermans";
+  <https://schema.org/Date> "1976";
+  <https://schema.org/reviewCount> "369";
+  <https://schema.org/Rating> "5.3";
+  <https://schema.org/vocab/code> "tt0074130" .
+
+<http://example.org/actorfilms/tt0072308> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Towering Inferno";
+  <https://schema.org/Date> "1974";
+  <https://schema.org/reviewCount> "39888";
+  <https://schema.org/Rating> "7.0";
+  <https://schema.org/vocab/code> "tt0072308" .
+
+<http://example.org/actorfilms/tt0064664> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Midas Run";
+  <https://schema.org/Date> "1969";
+  <https://schema.org/reviewCount> "123";
+  <https://schema.org/Rating> "4.8";
+  <https://schema.org/vocab/code> "tt0064664" .
+
+<http://example.org/actorfilms/tt0062974> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Finian's Rainbow";
+  <https://schema.org/Date> "1968";
+  <https://schema.org/reviewCount> "3377";
+  <https://schema.org/Rating> "6.2";
+  <https://schema.org/vocab/code> "tt0062974" .
+
+<http://example.org/actorfilms/tt0056289> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Notorious Landlady";
+  <https://schema.org/Date> "1962";
+  <https://schema.org/reviewCount> "1887";
+  <https://schema.org/Rating> "6.8";
+  <https://schema.org/vocab/code> "tt0056289" .
+
+<http://example.org/actorfilms/tt0055307> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Pleasure of His Company";
+  <https://schema.org/Date> "1961";
+  <https://schema.org/reviewCount> "679";
+  <https://schema.org/Rating> "6.9";
+  <https://schema.org/vocab/code> "tt0055307" .
+
+<http://example.org/actorfilms/tt0053137> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "On the Beach";
+  <https://schema.org/Date> "1959";
+  <https://schema.org/reviewCount> "12066";
+  <https://schema.org/Rating> "7.2";
+  <https://schema.org/vocab/code> "tt0053137" .
+
+<http://example.org/actorfilms/tt0050419> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Funny Face";
+  <https://schema.org/Date> "1957";
+  <https://schema.org/reviewCount> "27534";
+  <https://schema.org/Rating> "7.0";
+  <https://schema.org/vocab/code> "tt0050419" .
+
+<http://example.org/actorfilms/tt0050972> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Silk Stockings";
+  <https://schema.org/Date> "1957";
+  <https://schema.org/reviewCount> "3548";
+  <https://schema.org/Rating> "6.9";
+  <https://schema.org/vocab/code> "tt0050972" .
+
+<http://example.org/actorfilms/tt0047969> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Daddy Long Legs";
+  <https://schema.org/Date> "1955";
+  <https://schema.org/reviewCount> "3507";
+  <https://schema.org/Rating> "6.7";
+  <https://schema.org/vocab/code> "tt0047969" .
+
+<http://example.org/actorfilms/tt0045537> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Band Wagon";
+  <https://schema.org/Date> "1953";
+  <https://schema.org/reviewCount> "10227";
+  <https://schema.org/Rating> "7.5";
+  <https://schema.org/vocab/code> "tt0045537" .
+
+<http://example.org/actorfilms/tt0044408> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Belle of New York";
+  <https://schema.org/Date> "1952";
+  <https://schema.org/reviewCount> "844";
+  <https://schema.org/Rating> "6.2";
+  <https://schema.org/vocab/code> "tt0044408" .
+
+<http://example.org/actorfilms/tt0043983> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Royal Wedding";
+  <https://schema.org/Date> "1951";
+  <https://schema.org/reviewCount> "4879";
+  <https://schema.org/Rating> "6.7";
+  <https://schema.org/vocab/code> "tt0043983" .
+
+<http://example.org/actorfilms/tt0043044> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Three Little Words";
+  <https://schema.org/Date> "1950";
+  <https://schema.org/reviewCount> "1600";
+  <https://schema.org/Rating> "7.0";
+  <https://schema.org/vocab/code> "tt0043044" .
+
+<http://example.org/actorfilms/tt0042674> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Let's Dance";
+  <https://schema.org/Date> "1950";
+  <https://schema.org/reviewCount> "453";
+  <https://schema.org/Rating> "6.2";
+  <https://schema.org/vocab/code> "tt0042674" .
+
+<http://example.org/actorfilms/tt0041158> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Barkleys of Broadway";
+  <https://schema.org/Date> "1949";
+  <https://schema.org/reviewCount> "2780";
+  <https://schema.org/Rating> "7.0";
+  <https://schema.org/vocab/code> "tt0041158" .
+
+<http://example.org/actorfilms/tt0040308> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Easter Parade";
+  <https://schema.org/Date> "1948";
+  <https://schema.org/reviewCount> "8848";
+  <https://schema.org/Rating> "7.4";
+  <https://schema.org/vocab/code> "tt0040308" .
+
+<http://example.org/actorfilms/tt0038370> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Blue Skies";
+  <https://schema.org/Date> "1946";
+  <https://schema.org/reviewCount> "1265";
+  <https://schema.org/Rating> "6.4";
+  <https://schema.org/vocab/code> "tt0038370" .
+
+<http://example.org/actorfilms/tt0039116> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Ziegfeld Follies";
+  <https://schema.org/Date> "1945";
+  <https://schema.org/reviewCount> "2908";
+  <https://schema.org/Rating> "6.5";
+  <https://schema.org/vocab/code> "tt0039116" .
+
+<http://example.org/actorfilms/tt0038262> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Yolanda and the Thief";
+  <https://schema.org/Date> "1945";
+  <https://schema.org/reviewCount> "897";
+  <https://schema.org/Rating> "6.0";
+  <https://schema.org/vocab/code> "tt0038262" .
+
+<http://example.org/actorfilms/tt0036363> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Sky's the Limit";
+  <https://schema.org/Date> "1943";
+  <https://schema.org/reviewCount> "847";
+  <https://schema.org/Rating> "6.4";
+  <https://schema.org/vocab/code> "tt0036363" .
+
+<http://example.org/actorfilms/tt0034862> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Holiday Inn";
+  <https://schema.org/Date> "1942";
+  <https://schema.org/reviewCount> "13636";
+  <https://schema.org/Rating> "7.4";
+  <https://schema.org/vocab/code> "tt0034862" .
+
+<http://example.org/actorfilms/tt0035583> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "You Were Never Lovelier";
+  <https://schema.org/Date> "1942";
+  <https://schema.org/reviewCount> "3321";
+  <https://schema.org/Rating> "7.2";
+  <https://schema.org/vocab/code> "tt0035583" .
+
+<http://example.org/actorfilms/tt0034409> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "You'll Never Get Rich";
+  <https://schema.org/Date> "1941";
+  <https://schema.org/reviewCount> "2253";
+  <https://schema.org/Rating> "6.8";
+  <https://schema.org/vocab/code> "tt0034409" .
+
+<http://example.org/actorfilms/tt0032284> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Broadway Melody of 1940";
+  <https://schema.org/Date> "1940";
+  <https://schema.org/reviewCount> "2146";
+  <https://schema.org/Rating> "7.4";
+  <https://schema.org/vocab/code> "tt0032284" .
+
+<http://example.org/actorfilms/tt0033029> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Second Chorus";
+  <https://schema.org/Date> "1940";
+  <https://schema.org/reviewCount> "1377";
+  <https://schema.org/Rating> "5.8";
+  <https://schema.org/vocab/code> "tt0033029" .
+
+<http://example.org/actorfilms/tt0031983> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Story of Vernon and Irene Castle";
+  <https://schema.org/Date> "1939";
+  <https://schema.org/reviewCount> "2316";
+  <https://schema.org/Rating> "6.9";
+  <https://schema.org/vocab/code> "tt0031983" .
+
+<http://example.org/actorfilms/tt0029971> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Carefree";
+  <https://schema.org/Date> "1938";
+  <https://schema.org/reviewCount> "3455";
+  <https://schema.org/Rating> "7.0";
+  <https://schema.org/vocab/code> "tt0029971" .
+
+<http://example.org/actorfilms/tt0029546> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Shall We Dance";
+  <https://schema.org/Date> "1937";
+  <https://schema.org/reviewCount> "6603";
+  <https://schema.org/Rating> "7.5";
+  <https://schema.org/vocab/code> "tt0029546" .
+
+<http://example.org/actorfilms/tt0028757> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "A Damsel in Distress";
+  <https://schema.org/Date> "1937";
+  <https://schema.org/reviewCount> "1801";
+  <https://schema.org/Rating> "6.8";
+  <https://schema.org/vocab/code> "tt0028757" .
+
+<http://example.org/actorfilms/tt0028333> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Swing Time";
+  <https://schema.org/Date> "1936";
+  <https://schema.org/reviewCount> "12475";
+  <https://schema.org/Rating> "7.5";
+  <https://schema.org/vocab/code> "tt0028333" .
+
+<http://example.org/actorfilms/tt0027630> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Follow the Fleet";
+  <https://schema.org/Date> "1936";
+  <https://schema.org/reviewCount> "3978";
+  <https://schema.org/Rating> "7.2";
+  <https://schema.org/vocab/code> "tt0027630" .
+
+<http://example.org/actorfilms/tt0027125> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Top Hat";
+  <https://schema.org/Date> "1935";
+  <https://schema.org/reviewCount> "17641";
+  <https://schema.org/Rating> "7.7";
+  <https://schema.org/vocab/code> "tt0027125" .
+
+<http://example.org/actorfilms/tt0026942> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Roberta";
+  <https://schema.org/Date> "1935";
+  <https://schema.org/reviewCount> "2948";
+  <https://schema.org/Rating> "7.1";
+  <https://schema.org/vocab/code> "tt0026942" .
+
+<http://example.org/actorfilms/tt0025164> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "The Gay Divorcee";
+  <https://schema.org/Date> "1934";
+  <https://schema.org/reviewCount> "7101";
+  <https://schema.org/Rating> "7.5";
+  <https://schema.org/vocab/code> "tt0025164" .
+
+<http://example.org/actorfilms/tt0024025> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Flying Down to Rio";
+  <https://schema.org/Date> "1933";
+  <https://schema.org/reviewCount> "3379";
+  <https://schema.org/Rating> "6.6";
+  <https://schema.org/vocab/code> "tt0024025" .
+
+<http://example.org/actorfilms/tt0023926> <https://schema.org/actor> "Fred Astaire";
+  <https://schema.org/identifier> "nm0000001";
+  <https://schema.org/Movie> "Dancing Lady";
+  <https://schema.org/Date> "1933";
+  <https://schema.org/reviewCount> "2107";
+  <https://schema.org/Rating> "6.8";
+  <https://schema.org/vocab/code> "tt0023926" .
+
+<http://example.org/actorfilms/tt1816518> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Ernest & Celestine";
+  <https://schema.org/Date> "2012";
+  <https://schema.org/reviewCount> "18793";
+  <https://schema.org/Rating> "7.9";
+  <https://schema.org/vocab/code> "tt1816518" .
+
+<http://example.org/actorfilms/tt1368858> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "The Forger";
+  <https://schema.org/Date> "2012";
+  <https://schema.org/reviewCount> "4472";
+  <https://schema.org/Rating> "5.4";
+  <https://schema.org/vocab/code> "tt1368858" .
+
+<http://example.org/actorfilms/tt0858500> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "All at Sea";
+  <https://schema.org/Date> "2010";
+  <https://schema.org/reviewCount> "110";
+  <https://schema.org/Rating> "5.7";
+  <https://schema.org/vocab/code> "tt0858500" .
+
+<http://example.org/actorfilms/tt0783608> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "The Walker";
+  <https://schema.org/Date> "2007";
+  <https://schema.org/reviewCount> "5256";
+  <https://schema.org/Rating> "5.8";
+  <https://schema.org/vocab/code> "tt0783608" .
+
+<http://example.org/actorfilms/tt0342735> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Manderlay";
+  <https://schema.org/Date> "2005";
+  <https://schema.org/reviewCount> "22622";
+  <https://schema.org/Rating> "7.3";
+  <https://schema.org/vocab/code> "tt0342735" .
+
+<http://example.org/actorfilms/tt0439848> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "These Foolish Things";
+  <https://schema.org/Date> "2005";
+  <https://schema.org/reviewCount> "358";
+  <https://schema.org/Rating> "5.6";
+  <https://schema.org/vocab/code> "tt0439848" .
+
+<http://example.org/actorfilms/tt0347149> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Howl's Moving Castle";
+  <https://schema.org/Date> "2004";
+  <https://schema.org/reviewCount> "340480";
+  <https://schema.org/Rating> "8.2";
+  <https://schema.org/vocab/code> "tt0347149" .
+
+<http://example.org/actorfilms/tt0337876> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Birth";
+  <https://schema.org/Date> "2004";
+  <https://schema.org/reviewCount> "34949";
+  <https://schema.org/Rating> "6.1";
+  <https://schema.org/vocab/code> "tt0337876" .
+
+<http://example.org/actorfilms/tt0276919> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Dogville";
+  <https://schema.org/Date> "2003";
+  <https://schema.org/reviewCount> "139108";
+  <https://schema.org/Rating> "8.0";
+  <https://schema.org/vocab/code> "tt0276919" .
+
+<http://example.org/actorfilms/tt0167423> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Diamonds";
+  <https://schema.org/Date> "1999";
+  <https://schema.org/reviewCount> "1493";
+  <https://schema.org/Rating> "5.5";
+  <https://schema.org/vocab/code> "tt0167423" .
+
+<http://example.org/actorfilms/tt0211577> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Presence of Mind";
+  <https://schema.org/Date> "1999";
+  <https://schema.org/reviewCount> "540";
+  <https://schema.org/Rating> "5.5";
+  <https://schema.org/vocab/code> "tt0211577" .
+
+<http://example.org/actorfilms/tt0272183> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Madeline: Lost in Paris";
+  <https://schema.org/Date> "1999";
+  <https://schema.org/reviewCount> "396";
+  <https://schema.org/Rating> "6.1";
+  <https://schema.org/vocab/code> "tt0272183" .
+
+<http://example.org/actorfilms/tt0211719> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "The Venice Project";
+  <https://schema.org/Date> "1999";
+  <https://schema.org/reviewCount> "129";
+  <https://schema.org/Rating> "5.7";
+  <https://schema.org/vocab/code> "tt0211719" .
+
+<http://example.org/actorfilms/tt0119418> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "Le jour et la nuit";
+  <https://schema.org/Date> "1997";
+  <https://schema.org/reviewCount> "1014";
+  <https://schema.org/Rating> "1.6";
+  <https://schema.org/vocab/code> "tt0119418" .
+
+<http://example.org/actorfilms/tt0117057> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "The Mirror Has Two Faces";
+  <https://schema.org/Date> "1996";
+  <https://schema.org/reviewCount> "16564";
+  <https://schema.org/Rating> "6.7";
+  <https://schema.org/vocab/code> "tt0117057" .
+
+<http://example.org/actorfilms/tt0117119> <https://schema.org/actor> "Lauren Bacall";
+  <https://schema.org/identifier> "nm0000002";
+  <https://schema.org/Movie> "My Fellow Americans";
+  <https://schema.org/Date> "1996";
+  <https://schema.org/reviewCount> "14178";
+  <https://schema.org/Rating> "6.5";
+  <https://schema.org/vocab/code> "tt0117119" .

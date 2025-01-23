@@ -1,0 +1,505 @@
+@prefix schema: <https://schema.org/> .
+
+<http://example.org/movies/A_Damsel_in_Distress> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1937" ;
+    schema:identifier "tt0028757" ;
+    schema:name "A Damsel in Distress" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "1801" .
+
+<http://example.org/movies/All_at_Sea> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2010" ;
+    schema:identifier "tt0858500" ;
+    schema:name "All at Sea" ;
+    schema:rating "5.7" ;
+    schema:reviewCount "110" .
+
+<http://example.org/movies/Birth> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2004" ;
+    schema:identifier "tt0337876" ;
+    schema:name "Birth" ;
+    schema:rating "6.1" ;
+    schema:reviewCount "34949" .
+
+<http://example.org/movies/Blue_Skies> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1946" ;
+    schema:identifier "tt0038370" ;
+    schema:name "Blue Skies" ;
+    schema:rating "6.4" ;
+    schema:reviewCount "1265" .
+
+<http://example.org/movies/Broadway_Melody_of_1940> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1940" ;
+    schema:identifier "tt0032284" ;
+    schema:name "Broadway Melody of 1940" ;
+    schema:rating "7.4" ;
+    schema:reviewCount "2146" .
+
+<http://example.org/movies/Carefree> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1938" ;
+    schema:identifier "tt0029971" ;
+    schema:name "Carefree" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "3455" .
+
+<http://example.org/movies/Daddy_Long_Legs> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1955" ;
+    schema:identifier "tt0047969" ;
+    schema:name "Daddy Long Legs" ;
+    schema:rating "6.7" ;
+    schema:reviewCount "3507" .
+
+<http://example.org/movies/Dancing_Lady> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1933" ;
+    schema:identifier "tt0023926" ;
+    schema:name "Dancing Lady" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "2107" .
+
+<http://example.org/movies/Diamonds> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0167423" ;
+    schema:name "Diamonds" ;
+    schema:rating "5.5" ;
+    schema:reviewCount "1493" .
+
+<http://example.org/movies/Dogville> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2003" ;
+    schema:identifier "tt0276919" ;
+    schema:name "Dogville" ;
+    schema:rating "8.0" ;
+    schema:reviewCount "139108" .
+
+<http://example.org/movies/Easter_Parade> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1948" ;
+    schema:identifier "tt0040308" ;
+    schema:name "Easter Parade" ;
+    schema:rating "7.4" ;
+    schema:reviewCount "8848" .
+
+<http://example.org/movies/Ernest_&_Celestine> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2012" ;
+    schema:identifier "tt1816518" ;
+    schema:name "Ernest & Celestine" ;
+    schema:rating "7.9" ;
+    schema:reviewCount "18793" .
+
+<http://example.org/movies/Finian's_Rainbow> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1968" ;
+    schema:identifier "tt0062974" ;
+    schema:name "Finian's Rainbow" ;
+    schema:rating "6.2" ;
+    schema:reviewCount "3377" .
+
+<http://example.org/movies/Flying_Down_to_Rio> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1933" ;
+    schema:identifier "tt0024025" ;
+    schema:name "Flying Down to Rio" ;
+    schema:rating "6.6" ;
+    schema:reviewCount "3379" .
+
+<http://example.org/movies/Follow_the_Fleet> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1936" ;
+    schema:identifier "tt0027630" ;
+    schema:name "Follow the Fleet" ;
+    schema:rating "7.2" ;
+    schema:reviewCount "3978" .
+
+<http://example.org/movies/Funny_Face> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1957" ;
+    schema:identifier "tt0050419" ;
+    schema:name "Funny Face" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "27534" .
+
+<http://example.org/movies/Ghost_Story> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1981" ;
+    schema:identifier "tt0082449" ;
+    schema:name "Ghost Story" ;
+    schema:rating "6.3" ;
+    schema:reviewCount "7731" .
+
+<http://example.org/movies/Holiday_Inn> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1942" ;
+    schema:identifier "tt0034862" ;
+    schema:name "Holiday Inn" ;
+    schema:rating "7.4" ;
+    schema:reviewCount "13636" .
+
+<http://example.org/movies/Howl's_Moving_Castle> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2004" ;
+    schema:identifier "tt0347149" ;
+    schema:name "Howl's Moving Castle" ;
+    schema:rating "8.2" ;
+    schema:reviewCount "340480" .
+
+<http://example.org/movies/Le_jour_et_la_nuit> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "1997" ;
+    schema:identifier "tt0119418" ;
+    schema:name "Le jour et la nuit" ;
+    schema:rating "1.6" ;
+    schema:reviewCount "1014" .
+
+<http://example.org/movies/Let's_Dance> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1950" ;
+    schema:identifier "tt0042674" ;
+    schema:name "Let's Dance" ;
+    schema:rating "6.2" ;
+    schema:reviewCount "453" .
+
+<http://example.org/movies/Madeline:_Lost_in_Paris> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0272183" ;
+    schema:name "Madeline: Lost in Paris" ;
+    schema:rating "6.1" ;
+    schema:reviewCount "396" .
+
+<http://example.org/movies/Manderlay> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2005" ;
+    schema:identifier "tt0342735" ;
+    schema:name "Manderlay" ;
+    schema:rating "7.3" ;
+    schema:reviewCount "22622" .
+
+<http://example.org/movies/Midas_Run> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1969" ;
+    schema:identifier "tt0064664" ;
+    schema:name "Midas Run" ;
+    schema:rating "4.8" ;
+    schema:reviewCount "123" .
+
+<http://example.org/movies/My_Fellow_Americans> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "1996" ;
+    schema:identifier "tt0117119" ;
+    schema:name "My Fellow Americans" ;
+    schema:rating "6.5" ;
+    schema:reviewCount "14178" .
+
+<http://example.org/movies/On_the_Beach> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1959" ;
+    schema:identifier "tt0053137" ;
+    schema:name "On the Beach" ;
+    schema:rating "7.2" ;
+    schema:reviewCount "12066" .
+
+<http://example.org/movies/Presence_of_Mind> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0211577" ;
+    schema:name "Presence of Mind" ;
+    schema:rating "5.5" ;
+    schema:reviewCount "540" .
+
+<http://example.org/movies/Roberta> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1935" ;
+    schema:identifier "tt0026942" ;
+    schema:name "Roberta" ;
+    schema:rating "7.1" ;
+    schema:reviewCount "2948" .
+
+<http://example.org/movies/Royal_Wedding> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1951" ;
+    schema:identifier "tt0043983" ;
+    schema:name "Royal Wedding" ;
+    schema:rating "6.7" ;
+    schema:reviewCount "4879" .
+
+<http://example.org/movies/Second_Chorus> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1940" ;
+    schema:identifier "tt0033029" ;
+    schema:name "Second Chorus" ;
+    schema:rating "5.8" ;
+    schema:reviewCount "1377" .
+
+<http://example.org/movies/Shall_We_Dance> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1937" ;
+    schema:identifier "tt0029546" ;
+    schema:name "Shall We Dance" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "6603" .
+
+<http://example.org/movies/Silk_Stockings> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1957" ;
+    schema:identifier "tt0050972" ;
+    schema:name "Silk Stockings" ;
+    schema:rating "6.9" ;
+    schema:reviewCount "3548" .
+
+<http://example.org/movies/Swing_Time> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1936" ;
+    schema:identifier "tt0028333" ;
+    schema:name "Swing Time" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "12475" .
+
+<http://example.org/movies/The_Amazing_Dobermans> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1976" ;
+    schema:identifier "tt0074130" ;
+    schema:name "The Amazing Dobermans" ;
+    schema:rating "5.3" ;
+    schema:reviewCount "369" .
+
+<http://example.org/movies/The_Band_Wagon> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1953" ;
+    schema:identifier "tt0045537" ;
+    schema:name "The Band Wagon" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "10227" .
+
+<http://example.org/movies/The_Barkleys_of_Broadway> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1949" ;
+    schema:identifier "tt0041158" ;
+    schema:name "The Barkleys of Broadway" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "2780" .
+
+<http://example.org/movies/The_Belle_of_New_York> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1952" ;
+    schema:identifier "tt0044408" ;
+    schema:name "The Belle of New York" ;
+    schema:rating "6.2" ;
+    schema:reviewCount "844" .
+
+<http://example.org/movies/The_Forger> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2012" ;
+    schema:identifier "tt1368858" ;
+    schema:name "The Forger" ;
+    schema:rating "5.4" ;
+    schema:reviewCount "4472" .
+
+<http://example.org/movies/The_Gay_Divorcee> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1934" ;
+    schema:identifier "tt0025164" ;
+    schema:name "The Gay Divorcee" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "7101" .
+
+<http://example.org/movies/The_Mirror_Has_Two_Faces> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "1996" ;
+    schema:identifier "tt0117057" ;
+    schema:name "The Mirror Has Two Faces" ;
+    schema:rating "6.7" ;
+    schema:reviewCount "16564" .
+
+<http://example.org/movies/The_Notorious_Landlady> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1962" ;
+    schema:identifier "tt0056289" ;
+    schema:name "The Notorious Landlady" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "1887" .
+
+<http://example.org/movies/The_Pleasure_of_His_Company> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1961" ;
+    schema:identifier "tt0055307" ;
+    schema:name "The Pleasure of His Company" ;
+    schema:rating "6.9" ;
+    schema:reviewCount "679" .
+
+<http://example.org/movies/The_Purple_Taxi> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1977" ;
+    schema:identifier "tt0076851" ;
+    schema:name "The Purple Taxi" ;
+    schema:rating "6.6" ;
+    schema:reviewCount "533" .
+
+<http://example.org/movies/The_Sky's_the_Limit> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1943" ;
+    schema:identifier "tt0036363" ;
+    schema:name "The Sky's the Limit" ;
+    schema:rating "6.4" ;
+    schema:reviewCount "847" .
+
+<http://example.org/movies/The_Story_of_Vernon_and_Irene_Castle> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1939" ;
+    schema:identifier "tt0031983" ;
+    schema:name "The Story of Vernon and Irene Castle" ;
+    schema:rating "6.9" ;
+    schema:reviewCount "2316" .
+
+<http://example.org/movies/The_Towering_Inferno> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1974" ;
+    schema:identifier "tt0072308" ;
+    schema:name "The Towering Inferno" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "39888" .
+
+<http://example.org/movies/The_Venice_Project> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0211719" ;
+    schema:name "The Venice Project" ;
+    schema:rating "5.7" ;
+    schema:reviewCount "129" .
+
+<http://example.org/movies/The_Walker> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2007" ;
+    schema:identifier "tt0783608" ;
+    schema:name "The Walker" ;
+    schema:rating "5.8" ;
+    schema:reviewCount "5256" .
+
+<http://example.org/movies/These_Foolish_Things> a schema:Movie ;
+    schema:cast <http://example.org/actors/Lauren_Bacall> ;
+    schema:datePublished "2005" ;
+    schema:identifier "tt0439848" ;
+    schema:name "These Foolish Things" ;
+    schema:rating "5.6" ;
+    schema:reviewCount "358" .
+
+<http://example.org/movies/Three_Little_Words> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1950" ;
+    schema:identifier "tt0043044" ;
+    schema:name "Three Little Words" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "1600" .
+
+<http://example.org/movies/Top_Hat> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1935" ;
+    schema:identifier "tt0027125" ;
+    schema:name "Top Hat" ;
+    schema:rating "7.7" ;
+    schema:reviewCount "17641" .
+
+<http://example.org/movies/Yolanda_and_the_Thief> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1945" ;
+    schema:identifier "tt0038262" ;
+    schema:name "Yolanda and the Thief" ;
+    schema:rating "6.0" ;
+    schema:reviewCount "897" .
+
+<http://example.org/movies/You'll_Never_Get_Rich> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1941" ;
+    schema:identifier "tt0034409" ;
+    schema:name "You'll Never Get Rich" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "2253" .
+
+<http://example.org/movies/You_Were_Never_Lovelier> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1942" ;
+    schema:identifier "tt0035583" ;
+    schema:name "You Were Never Lovelier" ;
+    schema:rating "7.2" ;
+    schema:reviewCount "3321" .
+
+<http://example.org/movies/Ziegfeld_Follies> a schema:Movie ;
+    schema:cast <http://example.org/actors/Fred_Astaire> ;
+    schema:datePublished "1945" ;
+    schema:identifier "tt0039116" ;
+    schema:name "Ziegfeld Follies" ;
+    schema:rating "6.5" ;
+    schema:reviewCount "2908" .
+
+<http://example.org/actors/Lauren_Bacall> a schema:Person ;
+    schema:hasActedIn <http://example.org/movies/All_at_Sea>,
+        <http://example.org/movies/Birth>,
+        <http://example.org/movies/Diamonds>,
+        <http://example.org/movies/Dogville>,
+        <http://example.org/movies/Ernest_&_Celestine>,
+        <http://example.org/movies/Howl's_Moving_Castle>,
+        <http://example.org/movies/Le_jour_et_la_nuit>,
+        <http://example.org/movies/Madeline:_Lost_in_Paris>,
+        <http://example.org/movies/Manderlay>,
+        <http://example.org/movies/My_Fellow_Americans>,
+        <http://example.org/movies/Presence_of_Mind>,
+        <http://example.org/movies/The_Forger>,
+        <http://example.org/movies/The_Mirror_Has_Two_Faces>,
+        <http://example.org/movies/The_Venice_Project>,
+        <http://example.org/movies/The_Walker>,
+        <http://example.org/movies/These_Foolish_Things> ;
+    schema:identifier "nm0000002" ;
+    schema:name "Lauren Bacall" .
+
+<http://example.org/actors/Fred_Astaire> a schema:Person ;
+    schema:hasActedIn <http://example.org/movies/A_Damsel_in_Distress>,
+        <http://example.org/movies/Blue_Skies>,
+        <http://example.org/movies/Broadway_Melody_of_1940>,
+        <http://example.org/movies/Carefree>,
+        <http://example.org/movies/Daddy_Long_Legs>,
+        <http://example.org/movies/Dancing_Lady>,
+        <http://example.org/movies/Easter_Parade>,
+        <http://example.org/movies/Finian's_Rainbow>,
+        <http://example.org/movies/Flying_Down_to_Rio>,
+        <http://example.org/movies/Follow_the_Fleet>,
+        <http://example.org/movies/Funny_Face>,
+        <http://example.org/movies/Ghost_Story>,
+        <http://example.org/movies/Holiday_Inn>,
+        <http://example.org/movies/Let's_Dance>,
+        <http://example.org/movies/Midas_Run>,
+        <http://example.org/movies/On_the_Beach>,
+        <http://example.org/movies/Roberta>,
+        <http://example.org/movies/Royal_Wedding>,
+        <http://example.org/movies/Second_Chorus>,
+        <http://example.org/movies/Shall_We_Dance>,
+        <http://example.org/movies/Silk_Stockings>,
+        <http://example.org/movies/Swing_Time>,
+        <http://example.org/movies/The_Amazing_Dobermans>,
+        <http://example.org/movies/The_Band_Wagon>,
+        <http://example.org/movies/The_Barkleys_of_Broadway>,
+        <http://example.org/movies/The_Belle_of_New_York>,
+        <http://example.org/movies/The_Gay_Divorcee>,
+        <http://example.org/movies/The_Notorious_Landlady>,
+        <http://example.org/movies/The_Pleasure_of_His_Company>,
+        <http://example.org/movies/The_Purple_Taxi>,
+        <http://example.org/movies/The_Sky's_the_Limit>,
+        <http://example.org/movies/The_Story_of_Vernon_and_Irene_Castle>,
+        <http://example.org/movies/The_Towering_Inferno>,
+        <http://example.org/movies/Three_Little_Words>,
+        <http://example.org/movies/Top_Hat>,
+        <http://example.org/movies/Yolanda_and_the_Thief>,
+        <http://example.org/movies/You'll_Never_Get_Rich>,
+        <http://example.org/movies/You_Were_Never_Lovelier>,
+        <http://example.org/movies/Ziegfeld_Follies> ;
+    schema:identifier "nm0000001" ;
+    schema:name "Fred Astaire" .
+

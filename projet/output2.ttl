@@ -1,0 +1,505 @@
+@prefix schema: <https://schema.org/> .
+
+<http://example.org/movies/tt0023926> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1933" ;
+    schema:identifier "tt0023926" ;
+    schema:name "Dancing Lady" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "2107" .
+
+<http://example.org/movies/tt0024025> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1933" ;
+    schema:identifier "tt0024025" ;
+    schema:name "Flying Down to Rio" ;
+    schema:rating "6.6" ;
+    schema:reviewCount "3379" .
+
+<http://example.org/movies/tt0025164> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1934" ;
+    schema:identifier "tt0025164" ;
+    schema:name "The Gay Divorcee" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "7101" .
+
+<http://example.org/movies/tt0026942> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1935" ;
+    schema:identifier "tt0026942" ;
+    schema:name "Roberta" ;
+    schema:rating "7.1" ;
+    schema:reviewCount "2948" .
+
+<http://example.org/movies/tt0027125> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1935" ;
+    schema:identifier "tt0027125" ;
+    schema:name "Top Hat" ;
+    schema:rating "7.7" ;
+    schema:reviewCount "17641" .
+
+<http://example.org/movies/tt0027630> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1936" ;
+    schema:identifier "tt0027630" ;
+    schema:name "Follow the Fleet" ;
+    schema:rating "7.2" ;
+    schema:reviewCount "3978" .
+
+<http://example.org/movies/tt0028333> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1936" ;
+    schema:identifier "tt0028333" ;
+    schema:name "Swing Time" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "12475" .
+
+<http://example.org/movies/tt0028757> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1937" ;
+    schema:identifier "tt0028757" ;
+    schema:name "A Damsel in Distress" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "1801" .
+
+<http://example.org/movies/tt0029546> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1937" ;
+    schema:identifier "tt0029546" ;
+    schema:name "Shall We Dance" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "6603" .
+
+<http://example.org/movies/tt0029971> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1938" ;
+    schema:identifier "tt0029971" ;
+    schema:name "Carefree" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "3455" .
+
+<http://example.org/movies/tt0031983> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1939" ;
+    schema:identifier "tt0031983" ;
+    schema:name "The Story of Vernon and Irene Castle" ;
+    schema:rating "6.9" ;
+    schema:reviewCount "2316" .
+
+<http://example.org/movies/tt0032284> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1940" ;
+    schema:identifier "tt0032284" ;
+    schema:name "Broadway Melody of 1940" ;
+    schema:rating "7.4" ;
+    schema:reviewCount "2146" .
+
+<http://example.org/movies/tt0033029> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1940" ;
+    schema:identifier "tt0033029" ;
+    schema:name "Second Chorus" ;
+    schema:rating "5.8" ;
+    schema:reviewCount "1377" .
+
+<http://example.org/movies/tt0034409> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1941" ;
+    schema:identifier "tt0034409" ;
+    schema:name "You'll Never Get Rich" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "2253" .
+
+<http://example.org/movies/tt0034862> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1942" ;
+    schema:identifier "tt0034862" ;
+    schema:name "Holiday Inn" ;
+    schema:rating "7.4" ;
+    schema:reviewCount "13636" .
+
+<http://example.org/movies/tt0035583> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1942" ;
+    schema:identifier "tt0035583" ;
+    schema:name "You Were Never Lovelier" ;
+    schema:rating "7.2" ;
+    schema:reviewCount "3321" .
+
+<http://example.org/movies/tt0036363> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1943" ;
+    schema:identifier "tt0036363" ;
+    schema:name "The Sky's the Limit" ;
+    schema:rating "6.4" ;
+    schema:reviewCount "847" .
+
+<http://example.org/movies/tt0038262> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1945" ;
+    schema:identifier "tt0038262" ;
+    schema:name "Yolanda and the Thief" ;
+    schema:rating "6.0" ;
+    schema:reviewCount "897" .
+
+<http://example.org/movies/tt0038370> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1946" ;
+    schema:identifier "tt0038370" ;
+    schema:name "Blue Skies" ;
+    schema:rating "6.4" ;
+    schema:reviewCount "1265" .
+
+<http://example.org/movies/tt0039116> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1945" ;
+    schema:identifier "tt0039116" ;
+    schema:name "Ziegfeld Follies" ;
+    schema:rating "6.5" ;
+    schema:reviewCount "2908" .
+
+<http://example.org/movies/tt0040308> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1948" ;
+    schema:identifier "tt0040308" ;
+    schema:name "Easter Parade" ;
+    schema:rating "7.4" ;
+    schema:reviewCount "8848" .
+
+<http://example.org/movies/tt0041158> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1949" ;
+    schema:identifier "tt0041158" ;
+    schema:name "The Barkleys of Broadway" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "2780" .
+
+<http://example.org/movies/tt0042674> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1950" ;
+    schema:identifier "tt0042674" ;
+    schema:name "Let's Dance" ;
+    schema:rating "6.2" ;
+    schema:reviewCount "453" .
+
+<http://example.org/movies/tt0043044> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1950" ;
+    schema:identifier "tt0043044" ;
+    schema:name "Three Little Words" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "1600" .
+
+<http://example.org/movies/tt0043983> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1951" ;
+    schema:identifier "tt0043983" ;
+    schema:name "Royal Wedding" ;
+    schema:rating "6.7" ;
+    schema:reviewCount "4879" .
+
+<http://example.org/movies/tt0044408> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1952" ;
+    schema:identifier "tt0044408" ;
+    schema:name "The Belle of New York" ;
+    schema:rating "6.2" ;
+    schema:reviewCount "844" .
+
+<http://example.org/movies/tt0045537> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1953" ;
+    schema:identifier "tt0045537" ;
+    schema:name "The Band Wagon" ;
+    schema:rating "7.5" ;
+    schema:reviewCount "10227" .
+
+<http://example.org/movies/tt0047969> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1955" ;
+    schema:identifier "tt0047969" ;
+    schema:name "Daddy Long Legs" ;
+    schema:rating "6.7" ;
+    schema:reviewCount "3507" .
+
+<http://example.org/movies/tt0050419> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1957" ;
+    schema:identifier "tt0050419" ;
+    schema:name "Funny Face" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "27534" .
+
+<http://example.org/movies/tt0050972> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1957" ;
+    schema:identifier "tt0050972" ;
+    schema:name "Silk Stockings" ;
+    schema:rating "6.9" ;
+    schema:reviewCount "3548" .
+
+<http://example.org/movies/tt0053137> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1959" ;
+    schema:identifier "tt0053137" ;
+    schema:name "On the Beach" ;
+    schema:rating "7.2" ;
+    schema:reviewCount "12066" .
+
+<http://example.org/movies/tt0055307> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1961" ;
+    schema:identifier "tt0055307" ;
+    schema:name "The Pleasure of His Company" ;
+    schema:rating "6.9" ;
+    schema:reviewCount "679" .
+
+<http://example.org/movies/tt0056289> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1962" ;
+    schema:identifier "tt0056289" ;
+    schema:name "The Notorious Landlady" ;
+    schema:rating "6.8" ;
+    schema:reviewCount "1887" .
+
+<http://example.org/movies/tt0062974> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1968" ;
+    schema:identifier "tt0062974" ;
+    schema:name "Finian's Rainbow" ;
+    schema:rating "6.2" ;
+    schema:reviewCount "3377" .
+
+<http://example.org/movies/tt0064664> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1969" ;
+    schema:identifier "tt0064664" ;
+    schema:name "Midas Run" ;
+    schema:rating "4.8" ;
+    schema:reviewCount "123" .
+
+<http://example.org/movies/tt0072308> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1974" ;
+    schema:identifier "tt0072308" ;
+    schema:name "The Towering Inferno" ;
+    schema:rating "7.0" ;
+    schema:reviewCount "39888" .
+
+<http://example.org/movies/tt0074130> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1976" ;
+    schema:identifier "tt0074130" ;
+    schema:name "The Amazing Dobermans" ;
+    schema:rating "5.3" ;
+    schema:reviewCount "369" .
+
+<http://example.org/movies/tt0076851> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1977" ;
+    schema:identifier "tt0076851" ;
+    schema:name "The Purple Taxi" ;
+    schema:rating "6.6" ;
+    schema:reviewCount "533" .
+
+<http://example.org/movies/tt0082449> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000001> ;
+    schema:datePublished "1981" ;
+    schema:identifier "tt0082449" ;
+    schema:name "Ghost Story" ;
+    schema:rating "6.3" ;
+    schema:reviewCount "7731" .
+
+<http://example.org/movies/tt0117057> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "1996" ;
+    schema:identifier "tt0117057" ;
+    schema:name "The Mirror Has Two Faces" ;
+    schema:rating "6.7" ;
+    schema:reviewCount "16564" .
+
+<http://example.org/movies/tt0117119> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "1996" ;
+    schema:identifier "tt0117119" ;
+    schema:name "My Fellow Americans" ;
+    schema:rating "6.5" ;
+    schema:reviewCount "14178" .
+
+<http://example.org/movies/tt0119418> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "1997" ;
+    schema:identifier "tt0119418" ;
+    schema:name "Le jour et la nuit" ;
+    schema:rating "1.6" ;
+    schema:reviewCount "1014" .
+
+<http://example.org/movies/tt0167423> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0167423" ;
+    schema:name "Diamonds" ;
+    schema:rating "5.5" ;
+    schema:reviewCount "1493" .
+
+<http://example.org/movies/tt0211577> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0211577" ;
+    schema:name "Presence of Mind" ;
+    schema:rating "5.5" ;
+    schema:reviewCount "540" .
+
+<http://example.org/movies/tt0211719> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0211719" ;
+    schema:name "The Venice Project" ;
+    schema:rating "5.7" ;
+    schema:reviewCount "129" .
+
+<http://example.org/movies/tt0272183> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "1999" ;
+    schema:identifier "tt0272183" ;
+    schema:name "Madeline: Lost in Paris" ;
+    schema:rating "6.1" ;
+    schema:reviewCount "396" .
+
+<http://example.org/movies/tt0276919> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2003" ;
+    schema:identifier "tt0276919" ;
+    schema:name "Dogville" ;
+    schema:rating "8.0" ;
+    schema:reviewCount "139108" .
+
+<http://example.org/movies/tt0337876> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2004" ;
+    schema:identifier "tt0337876" ;
+    schema:name "Birth" ;
+    schema:rating "6.1" ;
+    schema:reviewCount "34949" .
+
+<http://example.org/movies/tt0342735> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2005" ;
+    schema:identifier "tt0342735" ;
+    schema:name "Manderlay" ;
+    schema:rating "7.3" ;
+    schema:reviewCount "22622" .
+
+<http://example.org/movies/tt0347149> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2004" ;
+    schema:identifier "tt0347149" ;
+    schema:name "Howl's Moving Castle" ;
+    schema:rating "8.2" ;
+    schema:reviewCount "340480" .
+
+<http://example.org/movies/tt0439848> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2005" ;
+    schema:identifier "tt0439848" ;
+    schema:name "These Foolish Things" ;
+    schema:rating "5.6" ;
+    schema:reviewCount "358" .
+
+<http://example.org/movies/tt0783608> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2007" ;
+    schema:identifier "tt0783608" ;
+    schema:name "The Walker" ;
+    schema:rating "5.8" ;
+    schema:reviewCount "5256" .
+
+<http://example.org/movies/tt0858500> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2010" ;
+    schema:identifier "tt0858500" ;
+    schema:name "All at Sea" ;
+    schema:rating "5.7" ;
+    schema:reviewCount "110" .
+
+<http://example.org/movies/tt1368858> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2012" ;
+    schema:identifier "tt1368858" ;
+    schema:name "The Forger" ;
+    schema:rating "5.4" ;
+    schema:reviewCount "4472" .
+
+<http://example.org/movies/tt1816518> a schema:Movie ;
+    schema:actor <http://example.org/actors/nm0000002> ;
+    schema:datePublished "2012" ;
+    schema:identifier "tt1816518" ;
+    schema:name "Ernest & Celestine" ;
+    schema:rating "7.9" ;
+    schema:reviewCount "18793" .
+
+<http://example.org/actors/nm0000002> a schema:Person ;
+    schema:hasActedIn <http://example.org/movies/tt0117057>,
+        <http://example.org/movies/tt0117119>,
+        <http://example.org/movies/tt0119418>,
+        <http://example.org/movies/tt0167423>,
+        <http://example.org/movies/tt0211577>,
+        <http://example.org/movies/tt0211719>,
+        <http://example.org/movies/tt0272183>,
+        <http://example.org/movies/tt0276919>,
+        <http://example.org/movies/tt0337876>,
+        <http://example.org/movies/tt0342735>,
+        <http://example.org/movies/tt0347149>,
+        <http://example.org/movies/tt0439848>,
+        <http://example.org/movies/tt0783608>,
+        <http://example.org/movies/tt0858500>,
+        <http://example.org/movies/tt1368858>,
+        <http://example.org/movies/tt1816518> ;
+    schema:identifier "nm0000002" ;
+    schema:name "Lauren Bacall" .
+
+<http://example.org/actors/nm0000001> a schema:Person ;
+    schema:hasActedIn <http://example.org/movies/tt0023926>,
+        <http://example.org/movies/tt0024025>,
+        <http://example.org/movies/tt0025164>,
+        <http://example.org/movies/tt0026942>,
+        <http://example.org/movies/tt0027125>,
+        <http://example.org/movies/tt0027630>,
+        <http://example.org/movies/tt0028333>,
+        <http://example.org/movies/tt0028757>,
+        <http://example.org/movies/tt0029546>,
+        <http://example.org/movies/tt0029971>,
+        <http://example.org/movies/tt0031983>,
+        <http://example.org/movies/tt0032284>,
+        <http://example.org/movies/tt0033029>,
+        <http://example.org/movies/tt0034409>,
+        <http://example.org/movies/tt0034862>,
+        <http://example.org/movies/tt0035583>,
+        <http://example.org/movies/tt0036363>,
+        <http://example.org/movies/tt0038262>,
+        <http://example.org/movies/tt0038370>,
+        <http://example.org/movies/tt0039116>,
+        <http://example.org/movies/tt0040308>,
+        <http://example.org/movies/tt0041158>,
+        <http://example.org/movies/tt0042674>,
+        <http://example.org/movies/tt0043044>,
+        <http://example.org/movies/tt0043983>,
+        <http://example.org/movies/tt0044408>,
+        <http://example.org/movies/tt0045537>,
+        <http://example.org/movies/tt0047969>,
+        <http://example.org/movies/tt0050419>,
+        <http://example.org/movies/tt0050972>,
+        <http://example.org/movies/tt0053137>,
+        <http://example.org/movies/tt0055307>,
+        <http://example.org/movies/tt0056289>,
+        <http://example.org/movies/tt0062974>,
+        <http://example.org/movies/tt0064664>,
+        <http://example.org/movies/tt0072308>,
+        <http://example.org/movies/tt0074130>,
+        <http://example.org/movies/tt0076851>,
+        <http://example.org/movies/tt0082449> ;
+    schema:identifier "nm0000001" ;
+    schema:name "Fred Astaire" .
+

@@ -1,0 +1,7 @@
+prefix schema: <https://schema.org/> 
+
+select ?film where {
+  ?actor schema:name  "Fred Astaire";
+	schema:hasActedIn ?film.
+	
+}

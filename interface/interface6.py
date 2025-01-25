@@ -29,27 +29,32 @@ def findPersons(personArray = []):
     select ?nom ?nomOriginal ?popularite ?adulte ?genre ?photo ?id ?profession
     where {
         ?film a schema:person;
-            schema:title ?name .
+            schema:title ?nom .
     """
 
     if(len(personArray)>0):
-        request += 'FILTER(REGEX(?name, "' + personArray[0]+'")'
+        request += 'FILTER(REGEX(?nom, "' + personArray[0]+'")'
         firstIgnored = False
         for title in personArray:
             if not(firstIgnored):
                 firstIgnored=True
                 continue
-            request+= '|| STRSTARTS(?name, "' + title +'")'
+            request+= '|| REGEX(?nom, "' + title +'")'
         request +=")"
 
     request+="""
-        BIND(URI(CONCAT("http://localhost/service/themoviedbapi/findPerson?Person=", ENCODE_FOR_URI(?name))) AS ?serviceURL)
+        BIND(URI(CONCAT("http://localhost/service/themoviedbapi/findPerson?Person=", ENCODE_FOR_URI(?nom))) AS ?serviceURL)
         
         OPTIONAL {
             SERVICE ?serviceURL {
                 ?result a ex:Film;
-                    schema:name ?title;
-                    ex:gender ?gender;
+                    ex:id ?id;
+                    ex:genre ?genre;
+                    ex:photo ?photo;
+                    ex:adulte ?adulte;
+                    ex:popularite ?popularite;
+                    ex:profession ?profession;
+                    ex:nomOriginal ?nomOriginal .
             }
         }
     }
@@ -77,7 +82,7 @@ def findMovies(filmArray = []):
             if not(firstIgnored):
                 firstIgnored=True
                 continue
-            request+= '|| STRSTARTS(?name, "' + title +'")'
+            request+= '|| REGEX(?name, "' + title +'")'
         request +=")"
 
     request+="""

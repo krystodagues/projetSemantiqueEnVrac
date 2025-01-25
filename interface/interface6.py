@@ -21,30 +21,84 @@ where {
 LIMIT 10
 """
 
-federated_query = """
-prefix schema: <https://schema.org/> 
-prefix ex: <http://example.org/film#> 
-prefix mov: <http://example.org/>
-select ?name ?title ?genres ?dateSortie ?noteMoyenne ?langueOriginale
-where {
-    ?film a schema:Movie;
-           schema:title ?name .
+def findPersons(personArray = []): 
+    request = """
+    prefix schema: <https://schema.org/> 
+    prefix ex: <http://example.org/film#> 
+    prefix mov: <http://example.org/>
+    select ?name ?title ?genres ?dateSortie ?noteMoyenne ?langueOriginale
+    where {
+        ?film a schema:Movie;
+            schema:title ?name .
+    """
+
+    if(len(personArray)>0):
+        request += 'FILTER(REGEX(?name, "' + personArray[0]+'")'
+        firstIgnored = False
+        for title in personArray:
+            if not(firstIgnored):
+                firstIgnored=True
+                continue
+            request+= '|| STRSTARTS(?name, "' + title +'")'
+        request +=")"
     
-    BIND(URI(CONCAT("http://localhost/service/themoviedbapi/findMovie?Movie=", ENCODE_FOR_URI(?name))) AS ?serviceURL)
+
+    request+="""
+        BIND(URI(CONCAT("http://localhost/service/themoviedbapi/findPerson?Person=", ENCODE_FOR_URI(?name))) AS ?serviceURL)
+        
+        OPTIONAL {
+            SERVICE ?serviceURL {
+                ?result a ex:Film;
+                    schema:name ?title;
+                    ex:gender ?gender;
+            }
+        }
+    }
+    LIMIT 10
+    """
     
-    OPTIONAL {
-        SERVICE ?serviceURL {
-            ?result a ex:Film;
+    return request
+
+def findMovies(filmArray = []): 
+    request = """
+    prefix schema: <https://schema.org/> 
+    prefix ex: <http://example.org/film#> 
+    prefix mov: <http://example.org/>
+    select ?name ?title ?genres ?dateSortie ?noteMoyenne ?langueOriginale
+    where {
+        ?film a schema:Movie;
+            schema:title ?name .
+    """
+
+    if(len(filmArray)>0):
+        request += 'FILTER(REGEX(?name, "' + filmArray[0]+'")'
+        firstIgnored = False
+        for title in filmArray:
+            if not(firstIgnored):
+                firstIgnored=True
+                continue
+            request+= '|| STRSTARTS(?name, "' + title +'")'
+        request +=")"
+    request+="""
+
+        BIND(URI(CONCAT("http://localhost/service/themoviedbapi/findMovie?Movie=", ENCODE_FOR_URI(?name))) AS ?serviceURL)
+        OPTIONAL {
+            SERVICE ?serviceURL {
+                ?result a ex:Film;
                     schema:name ?title;
                     ex:genres ?genres;
                     ex:dateSortie ?dateSortie;
                     ex:noteMoyenne ?noteMoyenne;
-                    ex:langueOriginale ?langueOriginale.
+                    ex:langueOriginale ?langueOriginale;
+                    ex:popularity ?popularity .
+            }
         }
     }
-}
-LIMIT 10
-"""
+    ORDER BY DESC(?popularity)
+    LIMIT 10
+    """
+    
+    return request
 
 # Function to execute simple query and display results
 def execute_simple_query():
@@ -53,9 +107,12 @@ def execute_simple_query():
 
 # Function to execute federated query and display results 
 def execute_federated_query():
+    input = userInput.get().split(",")
     print("Executing federated query")
-    results = graph.query(federated_query)
-    print(f"Federated query results: {len(list(results))} rows")
+    results = graph.query(findMovies(input))
+    print(f"Federated query results: {results}")
+    print(f"Federated query results list: {list(results)}")
+    print(f"Federated query results list length: {len(list(results))} rows")
     display_results(results, ["name", "genres", "dateSortie", "noteMoyenne", "langueOriginale"])
     print("Federated query executed")
 
@@ -88,13 +145,19 @@ def display_results(results, fields):
 root = tk.Tk()
 root.title("Movie Query")
 
-simple_button = tk.Button(root, text="Simple Query", command=execute_simple_query)
-simple_button.pack(pady=10)
+paramsSection = ttk.Frame(root, padding=10)
 
-federated_button = tk.Button(root, text="Federated Query", command=execute_federated_query)
-federated_button.pack(pady=10)
+tk.Label(paramsSection, text="Input").grid(row=0 ,column=0)
+userInput = tk.Entry(paramsSection)
+userInput.grid(row=0 ,column=1)
+simple_button = tk.Button(paramsSection, text="Persons", command=execute_simple_query).grid(row=1 ,column=0)
+federated_button = tk.Button(paramsSection, text="Movies", command=execute_federated_query).grid(row=1 ,column=1)
+
+paramsSection.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
 
 result_frame = tk.Frame(root)
+
 result_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
 root.mainloop()

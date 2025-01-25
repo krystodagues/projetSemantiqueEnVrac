@@ -61,20 +61,23 @@ def findPersons(personArray = []):
     ORDER BY DESC(?popularity)
     LIMIT 10
     """
-    
+    print(request)
     return request
-
+    
 def findMovies(filmArray = []): 
     request = """
     prefix schema: <https://schema.org/> 
     prefix ex: <http://example.org/film#> 
     prefix mov: <http://example.org/>
-    select ?name ?title ?genres ?dateSortie ?noteMoyenne ?langueOriginale
+    select ?name ?identifier ?publishDate ?dateSortie ?langueOriginale ?popularite
     where {
-        ?film a schema:Movie;
-            schema:title ?name .
+    ?film a schema:Movie;
+            schema:title ?name ;
+            schema:identifier ?identifier;
+            schema:datePublished ?publishDate.
+    
     """
-
+    
     if(len(filmArray)>0):
         request += 'FILTER(REGEX(?name, "' + filmArray[0]+'")'
         firstIgnored = False
@@ -90,33 +93,37 @@ def findMovies(filmArray = []):
 
         OPTIONAL {
             SERVICE ?serviceURL {
-                ?result a ex:Film;
-                    schema:name ?title;
-                    ex:genres ?genres;
+                ?result a ex:filmReport;
                     ex:dateSortie ?dateSortie;
-                    ex:noteMoyenne ?noteMoyenne;
                     ex:langueOriginale ?langueOriginale;
-                    ex:popularity ?popularity .
+                    ex:popularite ?popularityRaw .
+	                BIND(xsd:decimal(?popularityRaw) AS ?popularite)
             }
         }
+    """
+    request += """
     }
-    ORDER BY DESC(?popularity)
+    ORDER BY DESC(?popularite)
     LIMIT 10
     """
-    
+    print(request)
     return request
 
 # Function to execute simple query and display results
 def execute_simple_query():
-    results = graph.query(simple_query)
-    display_results(results, ["name"])
+    input = userInput.get().split(",")
+    print("Executing federated query")
+    results = graph.query(findPersons(input))
+    display_results(results, ["nom" ,"nomOriginal" ,"popularite" ,"adulte" ,"genre" ,"photo" ,"id" ,"profession"])
+    print("Federated query executed")
 
 # Function to execute federated query and display results 
 def execute_federated_query():
     input = userInput.get().split(",")
     print("Executing federated query")
     results = graph.query(findMovies(input))
-    display_results(results, ["name", "genres", "dateSortie", "noteMoyenne", "langueOriginale"])
+    print(list(graph.namespaces()))
+    display_results(results, ["name","identifier","publishDate","dateSortie","langueOriginale","popularite"])
     print("Federated query executed")
 
 # Function to display query results
@@ -126,41 +133,39 @@ def display_results(results, fields):
         widget.destroy()
 
     # Create table header
-    header_frame = tk.Frame(result_frame)
-    header_frame.pack(fill=tk.X)
-    for field in fields:
-        label = tk.Label(header_frame, text=field.capitalize(), anchor="w")
-        label.pack(side=tk.LEFT, padx=5, fill=tk.X, expand=True)
+    for i, field in enumerate(fields):
+        result_frame.grid_columnconfigure(i, weight=1)
+        result_frame.grid_columnconfigure(i, minsize=150)  # Set minimum column width
+        label = tk.Label(result_frame, text=field.capitalize(), anchor="w", bg="lightgray", padx=5, pady=5)
+        label.grid(row=0, column=i, sticky="nsew")  # Use grid for the header
 
     # Display results in table
-    for row in results:
-        row_frame = tk.Frame(result_frame)
-        row_frame.pack(fill=tk.X)
-        for field in fields:
-            if field in row:
-                value = row[field]
-            else:
-                value = row.name
-            label = tk.Label(row_frame, text=str(value), anchor="w")
-            label.pack(side=tk.LEFT, padx=5, fill=tk.X, expand=True)
+    for row_idx, row in enumerate(results, start=1):
+        for col_idx, field in enumerate(fields):
+            print(row)
+            value = row[col_idx] if col_idx < len(row) and row[col_idx] is not None else "Not Found"
+            label = tk.Label(result_frame, text=value, anchor="w", padx=5, pady=5)
+            label.grid(row=row_idx, column=col_idx, sticky="nsew")  # Use grid for rows
 
 # Create GUI
 root = tk.Tk()
 root.title("Movie Query")
 
-paramsSection = ttk.Frame(root, padding=10)
+params_section = ttk.Frame(root, padding=10)
 
-tk.Label(paramsSection, text="Input").grid(row=0 ,column=0)
-userInput = tk.Entry(paramsSection)
-userInput.grid(row=0 ,column=1)
-simple_button = tk.Button(paramsSection, text="Persons", command=execute_simple_query).grid(row=1 ,column=0)
-federated_button = tk.Button(paramsSection, text="Movies", command=execute_federated_query).grid(row=1 ,column=1)
+# Input field and buttons
+tk.Label(params_section, text="Input").grid(row=0, column=0)
+userInput = tk.Entry(params_section)
+userInput.grid(row=0, column=1)
+simple_button = tk.Button(params_section, text="Persons", command=execute_simple_query).grid(row=1, column=0)
+federated_button = tk.Button(params_section, text="Movies", command=execute_federated_query).grid(row=1, column=1)
 
-paramsSection.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+params_section.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-
+# Result frame
 result_frame = tk.Frame(root)
-
 result_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+# Display initial results
 
 root.mainloop()

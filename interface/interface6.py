@@ -24,11 +24,11 @@ LIMIT 10
 def findPersons(personArray = []): 
     request = """
     prefix schema: <https://schema.org/> 
-    prefix ex: <http://example.org/film#> 
+    prefix ex: <http://example.org/person#> 
     prefix mov: <http://example.org/>
-    select ?name ?title ?genres ?dateSortie ?noteMoyenne ?langueOriginale
+    select ?nom ?nomOriginal ?popularite ?adulte ?genre ?photo ?id ?profession
     where {
-        ?film a schema:Movie;
+        ?film a schema:person;
             schema:title ?name .
     """
 
@@ -41,7 +41,6 @@ def findPersons(personArray = []):
                 continue
             request+= '|| STRSTARTS(?name, "' + title +'")'
         request +=")"
-    
 
     request+="""
         BIND(URI(CONCAT("http://localhost/service/themoviedbapi/findPerson?Person=", ENCODE_FOR_URI(?name))) AS ?serviceURL)
@@ -54,6 +53,7 @@ def findPersons(personArray = []):
             }
         }
     }
+    ORDER BY DESC(?popularity)
     LIMIT 10
     """
     
@@ -79,9 +79,10 @@ def findMovies(filmArray = []):
                 continue
             request+= '|| STRSTARTS(?name, "' + title +'")'
         request +=")"
-    request+="""
 
+    request+="""
         BIND(URI(CONCAT("http://localhost/service/themoviedbapi/findMovie?Movie=", ENCODE_FOR_URI(?name))) AS ?serviceURL)
+
         OPTIONAL {
             SERVICE ?serviceURL {
                 ?result a ex:Film;
@@ -110,9 +111,6 @@ def execute_federated_query():
     input = userInput.get().split(",")
     print("Executing federated query")
     results = graph.query(findMovies(input))
-    print(f"Federated query results: {results}")
-    print(f"Federated query results list: {list(results)}")
-    print(f"Federated query results list length: {len(list(results))} rows")
     display_results(results, ["name", "genres", "dateSortie", "noteMoyenne", "langueOriginale"])
     print("Federated query executed")
 

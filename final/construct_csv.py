@@ -41,10 +41,10 @@ WHERE {
        <https://schema.org/reviewCount> ?reviews .
 
     # Générer un URI unique basé sur le titre du film
-    BIND(URI(CONCAT("http://example.org/movies/", REPLACE(?movieTitle, " ", "_"))) AS ?movie)
+    BIND(URI(CONCAT("http://example.org/movie/", REPLACE(?movieTitle, " ", "_"))) AS ?movie)
 
     # Générer un URI unique pour chaque acteur basé sur son nom
-    BIND(URI(CONCAT("http://example.org/actors/", REPLACE(?actorName, " ", "_"))) AS ?actor)
+    BIND(URI(CONCAT("http://example.org/actor/", REPLACE(?actorName, " ", "_"))) AS ?actor)
 }
 """
 
